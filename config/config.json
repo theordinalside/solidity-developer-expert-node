@@ -1,0 +1,31 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "Samad_Tracker",
+        "app_desc": "SamadTracker",
+        "node_port": 1832,
+        "json_indentation": 4,
+        "host": "localhost",
+        "database": "SAMAD_TRACKER-Stag",
+        "swaggerURL": "172.16.1.217:1832",
+        "nodemailer": {
+            "user": "mobiloittetesting123@gmail.com",
+            "pass": "Mobiloitte@12"
+        },
+        "url": "http://172.16.1.217:1832/reset-password"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 1832,
+        "json_indentation": 4,
+        "database": "SAMAD_TRACKER-Stag",
+        "host": "localhost",
+        "swaggerURL": "node.theordinalside.com",
+        "nodemailer": {
+            "user": "theordinalside@gmail.com",
+            "pass": "Grise12@a"
+        },
+        "url": "https://node.theordinalside.com/reset-password"
+    }
+}
+
